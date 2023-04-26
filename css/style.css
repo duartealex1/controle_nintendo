@@ -1,0 +1,187 @@
+body {
+    background: #40e0d0;
+}
+.game-boy{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(167,223,145);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 3%;
+    border-bottom-right-radius: 50px;
+    box-shadow: 3px 5px 5px rgba(0,0,0,0.4);
+}
+.screen-border{
+    width: 80%;
+    height: 50%;
+    background-color: rgb(110, 110, 110);
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    border-radius: 5%;
+    border-bottom-right-radius: 50px;
+}
+.line-red{
+    width: 90%;
+    height: 2px;
+    background-color: rgb(182,80,80);
+    margin: 0 auto;
+    margin-top: 8px;
+}
+.screen{
+    width: 60%;
+    height: 80%;
+    background-color: rgb(170,170,170);
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+.power{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgb(121,40,40);
+    position: absolute;
+    top: 45px;
+    left: 7%;
+}
+.logo{
+    position: absolute;
+    top: 60%;
+    left: 13%;
+    width: 100%;
+    color: rgb(65,65,65);
+}
+.nintendo{
+    float: left;
+    font-weight: bolder;
+    font-size: 10px;
+    line-height: 26px;
+}
+.gb{
+    float: left;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.d-pad{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(142,190,123);
+    position: relative;
+    top: 70%;
+    left: 10%;
+    border-radius: 50px;
+}
+.d-y{
+    width: 13px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+}
+.d-x{
+    width: 35px;
+    height: 13px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+}
+.buttons{
+    width: 30px;
+    height: 70px;
+    background-color: rgba(91,134,74,0.795);
+    position: absolute;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+    top: 69%;
+    left: 69%;
+    transform: rotate(60deg);
+    border-radius: 15px;
+}
+.b-a{
+    width: 22px;
+    height: 22px;
+    background-color: rgb(194,76,76);
+    border-radius: 10px;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    box-shadow: 2px 2px 2px rgba(114,49,49,0.418);
+}
+.b-b{
+    width: 22px;
+    height: 22px;
+    background-color: rgb(194,76,76);
+    border-radius: 10px;
+    position: absolute;
+    top: 42px;
+    left: 4px;
+    box-shadow: 2px 2px 2px rgba(114,49,49,0.418);
+}
+.buttons_s{
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 84%;
+    left: 40%;
+}
+.start{
+    width: 7px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: rgb(43,43,43);
+    transform: rotate(50deg);
+    box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.2);
+}
+.select{
+    width: 7px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: rgb(43,43,43);
+    transform: rotate(50deg);
+    position: absolute;
+    right: 2px;
+    top: 0;
+    box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.2);
+}
+.a{
+    width: 22px;
+    height: 22px;
+    border-radius: 10px;
+    position: absolute;
+    top: -2px;
+    left: 30px;
+    transform: rotate(-90deg);
+    font-family: cursive;
+    font-size: 10px;
+}
+.b{
+    width: 22px;
+    height: 22px;
+    transform: rotate(-90deg);
+    border-radius: 10px;
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    font-family: cursive;
+    font-size: 10px;
+}
+/* .img{
+    width: 80%;
+    height: 50%;
+    background-color: rgb(110, 110, 110);
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    border-radius: 5%;
+    border-bottom-right-radius: 50px;
+    
+} */
